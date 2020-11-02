@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(231, 231, 231);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.TodoList-container {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.TodoList {
+  background-color: white;
+  margin-top: 1rem;
+  display: grid;
+  place-items: center;
+  width: 40vw;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.TodoItem {
+  padding: 10px;
+}
+.TodoItem span {
+  font-weight: 600;
+}
+.TodoItem button {
+  margin-left: 10px;
+}
+.NewTodoForm input {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 1.5rem;
+  outline: none;
+  display: block;
+  margin: 1rem 0;
+}
+.NewTodoForm button {
+  width: 100%;
+}
+.NewTodoForm button:hover,
+.sm:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+}
+.TodoItem span:hover {
+  cursor: pointer;
+}
+.complete {
+  color: gray;
+  text-decoration: line-through;
+}
+.incomplete {
+  font-weight: 600;
+}
+.button {
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: rgb(147, 190, 221);
+  outline: none;
+  border: 0;
+}
+.sm {
+  padding: 4px;
+}
+.delete {
+  background-color: rgba(255, 0, 0, 0.256);
+}
+.edit {
+  background-color: rgb(152, 243, 152);
+}
