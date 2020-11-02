@@ -1,5 +1,7 @@
 # Todo App w/React
 
-[Demo](https://ecaste-react-todo.vercel.app/)
+[Live Demo](https://ecaste-react-todo.vercel.app/)
 
-Code in [CodeSandbox]()
+![](https://i.imgur.com/i96mC4j.png?1)
+
+Code in [CodeSandbox](https://codesandbox.io/s/github/EzequielCaste/react-todo-app)
